@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/output.css" rel="stylesheet">
+    <title>Buttons</title>
+</head>
+<body class="bg-neutral-1000">
+    <section class="flex flex-col">
+        <!-- Create Account; Follow, Next, Sign Up, Following Buttons -->
+        <section class="flex flex-row my-10 mx-20">
+            <section class="flex flex-col gap-2.5">
+                <button class="px-6 py-2 w-80 bg-neutral-50 hover:bg-neutral-200 active:bg-neutral-200 rounded-full shadow-button-custom-shadow backdrop-blur-xl font-inter text-neutral-1000 text-16 leading-normal font-bold">
+                    Create Account
+                </button>
+                <button class="px-6 py-2 w-80 bg-neutral-500 cursor-not-allowed rounded-full gap-2.5 shadow-button-custom-shadow backdrop-blur-xl font-inter text-neutral-1000 text-16 leading-normal font-bold">
+                    Create Account
+                </button>
+                <button class="px-6 py-2 w-80 border border-twitter-blue-default active:bg-button-stroke rounded-full gap-2.5 shadow-button-custom-shadow backdrop-blur-xl font-inter text-twitter-blue-default text-16 leading-normal font-bold">
+                    Sign Up
+                </button>
+            </section>
+            <section class="flex flex-col gap-2.5 mx-5">
+                <button class="px-6 py-2 bg-neutral-50 hover:bg-neutral-200 active:bg-neutral-200 rounded-full shadow-button-custom-shadow backdrop-blur-xl font-inter text-neutral-1000 text-16 leading-normal font-bold">
+                    Follow
+                </button>
+                <button class="px-6 py-2 bg-neutral-500 cursor-not-allowed rounded-full gap-2.5 shadow-button-custom-shadow backdrop-blur-xl font-inter text-neutral-1000 text-16 leading-normal font-bold">
+                    Follow
+                </button>
+            </section>
+            <section class="flex flex-col gap-2.5 mx-5">
+                <button class="px-6 py-2 w-ustom-button-16 bg-neutral-50 hover:bg-neutral-200 active:bg-neutral-200 rounded-full shadow-button-custom-shadow backdrop-blur-xl font-inter text-neutral-1000 text-16 leading-normal font-bold">
+                    Next
+                </button>
+                <button class="px-6 py-2 w-custom-button-16 bg-neutral-500 cursor-not-allowed rounded-full gap-2.5 shadow-button-custom-shadow backdrop-blur-xl font-inter text-neutral-1000 text-16 leading-normal font-bold">
+                    Next
+                </button>
+                <div class="flex justify-center">
+                    <button class="px-6 py-2 basis-auto border border-button-stroke active:bg-button-stroke rounded-full gap-2.5 shadow-button-custom-shadow backdrop-blur-xl font-inter text-neutral-50 text-14 leading-normal font-bold">
+                        Following
+                    </button>
+                </div>
+                
+            </section>
+        </section>
+        <!-- Post Buttons -->
+        <section class="flex flex-row my-10 mx-20">
+            <section class="flex flex-col gap-2.5">
+                <button class="px-6 py-2 w-56 bg-twitter-blue-default hover:bg-twitter-blue-hover active:bg-twitter-blue-hover rounded-full shadow-button-custom-shadow backdrop-blur-xl font-inter text-neutral-50 text-16 leading-normal font-bold">
+                    Post
+                </button>
+                <button class="px-6 py-2 w-56 bg-twitter-blue-disabled cursor-not-allowed rounded-full gap-2.5 shadow-button-custom-shadow backdrop-blur-xl font-inter text-neutral-50 text-16 leading-normal font-bold">
+                    Post
+                </button>
+            </section>
+            <section class="flex flex-col gap-2.5 mx-5">
+                <button class="px-6 py-2 w-auto bg-twitter-blue-default hover:bg-twitter-blue-hover active:bg-twitter-blue-hover rounded-full shadow-button-custom-shadow backdrop-blur-xl font-inter text-neutral-50 text-16 leading-normal font-bold">
+                    Post
+                </button>
+                <button class="px-6 py-2 w-auto bg-twitter-blue-disabled cursor-not-allowed rounded-full gap-2.5 shadow-button-custom-shadow backdrop-blur-xl font-inter text-neutral-50 text-16 leading-normal font-bold">
+                    Post
+                </button>
+            </section>
+            <section class="flex flex-col gap-2.5 mx-5">
+                <button class="px-6 py-2 w-custom-button-16 bg-twitter-blue-default hover:bg-twitter-blue-hover active:bg-twitter-blue-hover rounded-full shadow-button-custom-shadow backdrop-blur-xl font-inter text-neutral-50 text-16 leading-normal font-bold">
+                    Post
+                </button>
+                <button class="px-6 py-2 w-custom-button-16 bg-twitter-blue-disabled cursor-not-allowed rounded-full gap-2.5 shadow-button-custom-shadow backdrop-blur-xl font-inter text-neutral-50 text-16 leading-normal font-bold">
+                    Post
+                </button>
+            </section>
+        </section>
+       <!-- For you; Following -->
+        <section class="my-10 mx-20">
+            <div class="w-[598px] h-[58px] border-b-[1px] border-neutral-700 px-20 pt-5 flex justify-center gap-40">
+                <button class="group pb-3 border-b-2 border-transparent hover:border-white active:border-white hover:pb-2 text-neutral-50 hover:text-neutral-400 text-base font-medium font-inter">
+                    For you
+                </button>
+                <button class="group pb-3 border-b-2 border-transparent hover:border-white active:border-white hover:pb-2 text-neutral-50 hover:text-neutral-400 text-base font-medium font-inter">
+                    Following
+                </button>
+            </div>
+        </section>
+        <!-- Home active/inactive; User active/inactive -->
+        <section class="my-10 mx-20">
+            <div class="relative group cursor-pointer">
+                <img src="../public/images/home-active.svg" alt="First Image" class="absolute top-0 left-0 opacity-0 group-hover:opacity-100"/>
+                <img src="../public/images/home-inactive.svg" alt="Second Image" class="absolute top-0 left-0 opacity-100 group-hover:opacity-0" />
+            </div>
+            <div class="relative group cursor-pointer mt-8">
+                <img src="../public/images/user-active.svg" alt="First Image" class="absolute top-0 left-0 opacity-0 group-hover:opacity-100"/>
+                <img src="../public/images/user-inactive.svg" alt="Second Image" class="absolute top-0 left-0 opacity-100 group-hover:opacity-0" />
+            </div>
+            
+        </section>
+    </section>
+</body>
+</html>
