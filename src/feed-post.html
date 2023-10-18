@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../dist/output.css" rel="stylesheet">
+    <title>Twitter Post Component</title>
+</head>
+<body class="bg-neutral-1000 flex justify-center items-center h-screen font-inter">
+    <!-- Tweet Post Component -->
+    <div class="flex flex-row w-[598px] gap-4 py-2 px-4 border-b-[1px] border-neutral-700">
+        <!-- Profile Picture -->
+        <div class="min-w-fit">
+            <img src="../public/images/user-avatar-2.png" alt="profile" class="aspect-square w-12 h-12 rounded-full object-cover">
+        </div>
+        <div class="w-full flex flex-col">
+            <!-- Name and Handle -->
+            <div class="flex flex-row w-full mb-1 gap-2">
+                <p class="text-neutral-50 text-base font-medium flex items-center">Name</p>
+                <p class="text-neutral-500 text-base font-regular flex items-center">@handle • 10h</p>
+            </div>
+            <!-- Text Area -->
+            <p class="w-full mb-2 text-neutral-50 text-16 font-regular">
+                Writing gets easier after the first sentence.<br><br>
+                Lifting gets easier after the first set.<br><br>People think and think and
+                think until they finally decide to act. Their attention shifts from internal to external,
+                and the difficulty they created in their mind vanishes.
+            </p>
+            <!-- Tweet elements -->
+            <div class="flex flex-row justify-between py-3 w-full">
+                <div class="flex gap-1">
+                    <img src="../public/images/comment.svg" alt="comment">
+                    <span class="text-neutral-500 font-regular text-14">11</span>
+                </div>
+                <div class="flex gap-1">
+                    <img src="../public/images/retweet.svg" alt="comment">
+                    <span class="text-neutral-500 font-regular text-14">270</span>
+                </div>
+                <div class="flex gap-1">
+                    <img src="../public/images/heart.svg" alt="comment">
+                    <span class="text-neutral-500 font-regular text-14">1,869</span>
+                </div>
+                <div class="flex gap-1">
+                    <img src="../public/images/reach.svg" alt="comment">
+                    <span class="text-neutral-500 font-regular text-14">99.6k</span>
+                </div>
+                <div>
+                    <img src="../public/images/share.svg" alt="comment">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
