@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../dist/output.css" rel="stylesheet">
+    <title>Components</title>
+</head>
+<body class="bg-neutral-1000 font-inter flex justify-center items-center h-screen">
+    <section class="flex flex-col gap-16 my-10 mx-10">
+        <!-- label input -->
+        <div>
+            <fieldset class="w-[426px] px-2 border border-neutral-500 rounded group focus-within:border-twitter-blue-default inline-flex">
+                <legend class="px-1 text-neutral-500 text-12 font-medium group-focus-within:text-twitter-blue-default">
+                    Label
+                </legend>
+                <input type="text" placeholder="Label" class="w-full px-2 pb-3 bg-transparent focus:outline-none text-neutral-50 placeholder:text-neutral-500 text-xl font-normal ">
+                <img src="../public/images/correct.svg" alt="valid" class="pb-3 opacity-0 group-focus-within:opacity-100">
+            </fieldset>
+        </div>
+        <!-- text input -->
+        <div class="w-[434px] inline-flex ">
+            <img src="../public/images/user-avatar.png" alt="valid" class="pb-3">
+            <input type="text" placeholder="What's happening?" class="px-2 pb-3 caret-twitter-blue-default bg-transparent focus:outline-none placeholder:text-neutral-500 text-neutral-50  text-xl font-normal ">
+        </div>
+        <!-- search text -->
+        <div class="group rounded-full bg-searchbar-fill w-[348px] h-[39px] flex flex-start border border-1 border-transparent focus-within:border-twitter-blue-default">
+            <img src="../public/images/search-icon.svg" alt="search" class="pl-4 pr-[15px] py-2.5 inline-block group-focus-within:hidden">
+            <img src="../public/images/search-active.svg" alt="search" class="pl-4 pr-[15px] py-2.5 group-focus-within:inline-block hidden">
+            <input type="text" placeholder="Search" class="py-2.5 w-5/6 bg-transparent focus:outline-none placeholder:text-neutral-500 placeholder:text-base placeholder:font-regular text-base text-neutral-50 font-regular">
+        </div>
+    </section>
+</body>
+</html>
