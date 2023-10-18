@@ -26,6 +26,7 @@ module.exports = {
         "card-fill": "#16181C",
         "success": "#00BE74",
         "error": "#8B141A",
+        "card-page-background": "#40596A",
       },
       fontFamily: {
         inter: ["inter", "sans-serif"],
